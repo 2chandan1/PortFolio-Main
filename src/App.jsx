@@ -11,6 +11,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
 import Footer from './components/Footer';
+import { Analytics } from '@vercel/analytics/react';
 
 function App() {
   useEffect(() => {
@@ -29,6 +30,7 @@ function App() {
         <section id="contact" className="scroll-mt-24"><Contact /></section>
       </main>
       <Footer/>
+      <Analytics />
     </>
   );
 }
