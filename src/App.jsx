@@ -6,7 +6,7 @@ import About from './components/About';
 import Skills from './components/SkilsAndExperience';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
-
+import { Toaster } from "react-hot-toast";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
@@ -19,6 +19,7 @@ function App() {
 
   return (
     <>
+     <Toaster position="top-right" />
       <Navbar />
       <main className="pt-16 space-y-32 ">
         <section id="home"><Hero /></section>

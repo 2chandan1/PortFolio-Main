@@ -39,7 +39,7 @@ const Navbar = () => {
 
       {/* Logo or Name */}
       <div className="navbar-end lg:navbar-start">
-        <a className="btn btn-ghost normal-case text-xl">Anmol</a>
+        <a className="btn btn-ghost normal-case text-xl">Chandan</a>
       </div>
 
       {/* Desktop Menu */}

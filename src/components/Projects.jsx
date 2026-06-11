@@ -215,7 +215,7 @@ const Projects = () => {
     <section className="px-6 ">
       <div className="max-w-7xl mx-auto">
         {/* Main Title */}
-        <h2 className="text-3xl font-bold text-center mb-14 text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent">
+        <h2 className="text-3xl font-bold text-center mb-14  bg-clip-text bg-gradient-to-r from-primary to-accent">
           Projects & Work Experience
         </h2>
 

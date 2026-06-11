@@ -10,13 +10,13 @@ e.preventDefault();
 setLoading(true);
 
 try {
-  await emailjs.sendForm(
-    "service_to57vzt",
-    "template_x05pana",
+  const result = await emailjs.sendForm(
+    "service_boriaid",
+    "template_bxxjcs2",
     e.target,
-    "xQUCoIraRP5H_7qv3"
+    "pZ2qH0dYhxmgIffsx"
   );
-
+console.log(result);
   toast.success("Message sent successfully!");
   e.target.reset();
 } catch (error) {
@@ -184,6 +184,7 @@ Contact Me </h2>
 
     </div>
   </div>
+  
 </section>
 
 
