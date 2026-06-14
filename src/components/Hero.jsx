@@ -22,7 +22,7 @@ function Hero() {
             {/* Badge */}
             <div className="badge badge-soft badge-accent my-4 px-4 py-2 flex items-center gap-2">
               <i className="fa-solid fa-circle-check text-success"></i>
-              FULL STACK DEVELOPER
+              FULL STACK DEVELOPER • AI ENGINEER
             </div>
 
             {/* Greeting */}
@@ -40,23 +40,27 @@ function Hero() {
               <span className="text-success text-3xl md:text-4xl font-semibold">
                 <TypeAnimation
                   sequence={[
-                    "Full Stack Engineer",
-                    2000,
-                    "React & Next.js Developer",
-                    2000,
-                    "MERN Stack Developer",
-                    2000,
-                    "Backend API Developer",
-                    2000,
-                    "Scalable System Design",
-                    2000,
-                    "Laravel Developer",
-                    2000,
-                    "AI-Assisted Developer",
-                    2000,
-                    "System Design Enthusiast",
-                    2000,
-                  ]}
+                        "Full Stack Engineer",
+                        2000,
+                        "AI Engineer",
+                        2000,
+                        "Agentic AI Developer",
+                        2000,
+                        "LLM Application Builder",
+                        2000,
+                        "React & Next.js Developer",
+                        2000,
+                        "MERN Stack Developer",
+                        2000,
+                        "RAG Systems Developer",
+                        2000,
+                        "AI Automation Engineer",
+                        2000,
+                        "Multi-Agent Systems",
+                        2000,
+                        "Backend API Developer",
+                        2000,
+                      ]}
                   wrapper="span"
                   speed={50}
                   repeat={Infinity}
@@ -67,34 +71,34 @@ function Hero() {
             {/* Description Box */}
             <div className="bg-base-200/60 border-l-4 border-info rounded-xl p-5 shadow-md backdrop-blur-sm">
               <p className="text-gray-300 leading-relaxed">
-                I am a{" "}
-                <span className="text-info font-medium">
-                  Full Stack Developer{" "}
-                </span>
-                with 4+ years of experience building scalable, high-performance
-                web applications using{" "}
-                <span className="text-info font-medium">React</span>,
-                <span className="text-info font-medium">Node.js</span>, and
-                <span className="text-info font-medium"> MongoDB</span>.
-                <br />
-                <br />I have experience designing and developing
-                production-ready solutions with a focus on
-                <span className="text-info font-medium">
-                  {" "}
-                  clean architecture
-                </span>
-                ,<span className="text-info font-medium"> system design</span>,
-                and
-                <span className="text-info font-medium">
-                  {" "}
-                  maintainable code
-                </span>
-                . I am currently open to{" "}
-                <span className="text-info font-medium">
-                  full-time Full Stack, Backend, and MERN opportunities
-                </span>
-                .
-              </p>
+                  I am a <span className="text-info font-medium">Full Stack Developer & AI Engineer</span>
+                  with 4+ years of experience building scalable web applications and
+                  intelligent AI-powered solutions.
+
+                  <br /><br />
+
+                  My expertise includes
+                  <span className="text-info font-medium"> React, Next.js, Node.js, Laravel, MongoDB</span>,
+                  along with modern AI technologies such as
+                  <span className="text-info font-medium">
+                    {" "}LLMs, RAG, AI Agents, Agentic Workflows, LangChain, Vector Databases,
+                    and AI Automation
+                  </span>.
+
+                  <br /><br />
+
+                  I build production-ready applications focused on
+                  <span className="text-info font-medium">
+                    {" "}scalability, clean architecture, system design, and AI-driven user experiences
+                  </span>.
+
+                  <br /><br />
+
+                  Currently open to
+                  <span className="text-info font-medium">
+                    {" "}Full Stack, Backend, AI Engineer, and Agentic AI Developer opportunities
+                  </span>.
+                </p>
             </div>
 
             {/* Buttons */}
