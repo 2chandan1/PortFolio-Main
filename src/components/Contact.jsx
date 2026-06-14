@@ -51,7 +51,7 @@ Contact Me </h2>
             <input
               type="text"
               name="user_name"
-              placeholder="John Doe"
+              placeholder="Enter your name"
               className="input input-bordered w-full focus:outline-none focus:ring-0 focus:border-primary"
               required
             />
@@ -65,7 +65,7 @@ Contact Me </h2>
             <input
               type="email"
               name="user_email"
-              placeholder="john@example.com"
+              placeholder="Enter your email"
               className="input input-bordered w-full focus:outline-none focus:ring-0 focus:border-primary"
               required
             />
@@ -120,12 +120,17 @@ Contact Me </h2>
             Let's Connect
           </h3>
 
-          <p className="text-gray-400 leading-relaxed">
-            Full Stack Engineer with 4+ years of experience building
-            scalable web applications using React.js, Node.js,
-            MongoDB, Laravel, and modern frontend technologies.
-            Open to Full-Time, Remote, Product-Based, and Global
-            Engineering Opportunities.
+           <p className="text-gray-400 leading-relaxed">
+            Full Stack Developer & AI Engineer with 4.5+ years of experience
+            building scalable web applications and intelligent AI-powered
+            solutions using React.js, Next.js, Node.js, Laravel, MongoDB,
+            REST APIs, and modern AI technologies.
+
+            <br /><br />
+
+            Interested in Full Stack Development, Backend Engineering,
+            AI Engineering, Agentic AI, RAG Applications, and Product
+            Development opportunities worldwide.
           </p>
 
           <div className="divider"></div>

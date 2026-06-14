@@ -72,7 +72,7 @@ function Hero() {
             <div className="bg-base-200/60 border-l-4 border-info rounded-xl p-5 shadow-md backdrop-blur-sm">
               <p className="text-gray-300 leading-relaxed">
                   I am a <span className="text-info font-medium">Full Stack Developer & AI Engineer</span>
-                  with 4+ years of experience building scalable web applications and
+                  with 4.5+ years of experience building scalable web applications and
                   intelligent AI-powered solutions.
 
                   <br /><br />

@@ -33,8 +33,21 @@ const SkillsAndExperience = () => {
     "Team Collaboration",
     "Ownership",
     "Adaptability",
-    "Mentoring",
     "Technical Documentation",
+    "Product Thinking",
+  ];
+  const aiSkills = [
+    "AI Solution Design",
+    "OpenAI",
+    "LLMs",
+    "Prompt Engineering",
+    "RAG",
+    "AI Agents",
+    "Agentic AI",
+    "LangChain",
+    "LangGraph",
+    "MCP",
+    "Vector Databases",
   ];
   const experiences = [
     {
@@ -42,10 +55,10 @@ const SkillsAndExperience = () => {
       company: "Cloud Analogy",
       duration: "Jan 2022 – Jun 2025",
       details: [
-        "Delivered 15+ web applications using React.js, Node.js, Laravel, and MongoDB.",
-        "Integrated 20+ third-party APIs including Stripe, PayPal, and DocuSign.",
-        "Improved application performance by 30%+ through API, database, and frontend optimization.",
-        "Collaborated with product, QA, and engineering teams to deliver high-impact features and improve overall platform performance.",
+        "Delivered 15+ production-grade web applications using React.js, Laravel, Node.js, and MongoDB.",
+        "Integrated payment gateways including Stripe, PayPal, and GoCardless.",
+        "Designed scalable REST APIs and optimized application performance by over 30%.",
+        "Collaborated with cross-functional teams to deliver high-impact business features.",
       ],
     },
     {
@@ -53,10 +66,10 @@ const SkillsAndExperience = () => {
       company: "Bakuun",
       duration: "Jul 2025 – Present",
       details: [
-        "Building enterprise travel solutions serving 2,000+ customers across 100+ countries.",
-        "Reduced API response times by up to 40% through backend optimization and scalable architecture.",
-        "Designing high-performance REST APIs, databases, and system components for large-scale operations.",
-        "Collaborated with cross-functional teams in Agile environments, consistently delivering features on schedule with high code quality standards.",
+        "Building enterprise travel technology solutions serving customers across 100+ countries.",
+        "Developing scalable backend services, APIs, and system components for global operations.",
+        "Improved API performance by up to 40% through optimization and architecture improvements.",
+        "Contributing to large-scale platform development using modern engineering best practices.",
       ],
     },
   ];
@@ -69,7 +82,8 @@ const SkillsAndExperience = () => {
           My Skills & Experience
         </h2>
         <p className="text-center text-gray-400 mb-12">
-          Focused on Java Backend Development & Enterprise Applications
+          Full Stack Development • AI Engineering • System Design • Scalable
+          Applications
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
@@ -90,7 +104,22 @@ const SkillsAndExperience = () => {
               ))}
             </div>
 
-            <h3 className="text-2xl font-bold mb-6 border-b border-gray-600 pb-2 flex items-center gap-2">
+            <h3 className="text-2xl font-bold mb-6 border-b border-gray-600 pb-2 mt-10 ">
+              🤖 AI Engineering
+            </h3>
+
+            <div className="flex flex-wrap gap-3 mb-10">
+              {aiSkills.map((skill) => (
+                <span
+                  key={skill}
+                  className="px-4 py-2 text-sm rounded-full bg-base-100 border border-gray-500 hover:scale-105 hover:bg-primary hover:text-white transition duration-300"
+                >
+                  {skill}
+                </span>
+              ))}
+            </div>
+
+            <h3 className="text-2xl font-bold mb-6 border-b border-gray-600 pb-2 flex items-center gap-2 mt-7">
               <Users className="text-primary w-6 h-6" /> Professional Strengths
             </h3>
 

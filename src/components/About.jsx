@@ -19,8 +19,7 @@ const About = () => {
           data-aos="fade-up"
           data-aos-delay="100"
         >
-          Full Stack Developer • React.js • MERN Stack • System Design •
-          AI-Assisted Development <br />
+          Full Stack Developer • AI Engineer • MERN Stack • Agentic AI • RAG • System Design <br />
           <strong className="text-info">
             Based in India • Open to Remote and Relocation Opportunities
           </strong>
@@ -35,34 +34,42 @@ const About = () => {
           <p className="text-gray-300 leading-relaxed">
             I am a{" "}
             <span className="text-info font-semibold">
-              Full Stack Developer
+               Full Stack Developer & AI Engineer {" "}
             </span>
-            with 4+ years of experience building scalable and maintainable web
-            applications. I specialize in{" "}
+             with 4.5+ years of experience building scalable web applications and
+  intelligent AI-powered solutions.
+   <br />
+  <br />
+
+  My expertise includes{" "}{" "}
             <span className="text-info font-semibold">React.js</span>,
-            <span className="text-info font-semibold"> Node.js</span>,
-            <span className="text-info font-semibold"> MongoDB</span>,
-            <span className="text-info font-semibold"> Laravel</span>, and
-            <span className="text-info font-semibold">
-              {" "}
-              RESTful API Development
-            </span>
-            .
-            <br />
-            <br />I have experience designing and developing production-ready
-            applications with a strong focus on
-            <span className="text-info font-semibold"> Clean Architecture</span>
-            ,<span className="text-info font-semibold"> System Design</span>,
-            and
-            <span className="text-info font-semibold"> Maintainable Code</span>.
-            I enjoy building reliable, high-performance systems while following
-            industry best practices and scalable development patterns.
-          </p>
+  <span className="text-info font-semibold"> Next.js</span>,
+  <span className="text-info font-semibold"> Node.js</span>,
+  <span className="text-info font-semibold"> MongoDB</span>,
+  <span className="text-info font-semibold"> Laravel</span>, and
+  <span className="text-info font-semibold"> RESTful APIs</span>.
+              
+       I also work with modern AI technologies including
+  <span className="text-info font-semibold">
+    {" "}LLMs, RAG (Retrieval-Augmented Generation), AI Agents,
+    Agentic Workflows, LangChain, Vector Databases, MCP, and AI Automation
+  </span>
+  to build intelligent applications that solve real-world problems.
+
+  <br />
+  <br />
+
+  I focus on creating production-ready systems with strong foundations in
+  <span className="text-info font-semibold">
+    {" "}Clean Architecture, System Design, Scalability,
+    Performance Optimization, and Maintainable Code
+  </span>.
+</p>
         </div>
 
         {/* Skill Cards */}
         <div
-          className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-12"
+          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-12"
           data-aos="fade-up"
           data-aos-delay="250"
         >
@@ -92,11 +99,16 @@ const About = () => {
               desc: "Understanding scalable architectures, application workflows, caching strategies, and performance optimization techniques.",
               icon: "fa-solid fa-sitemap",
             },
-            {
-              title: "AI-Powered Development",
-              desc: "Utilizing AI-assisted coding, code review, debugging, documentation, and workflow automation tools to build high-quality software efficiently.",
+           {
+              title: "AI Engineering & Agentic AI",
+              desc: "Building AI-powered applications using LLMs, RAG, AI Agents, LangChain, MCP, Vector Databases, and workflow automation to create intelligent user experiences.",
               icon: "fa-solid fa-brain",
             },
+            {
+              title: "Generative AI & LLM Apps",
+              desc: "Developing AI chatbots, document Q&A systems, AI assistants, semantic search, and automation workflows using modern Generative AI technologies.",
+              icon: "fa-solid fa-robot",
+            }
           ].map((item, index) => (
             <div
               key={index}
